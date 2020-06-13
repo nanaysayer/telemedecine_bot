@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f570dc-508b-44e3-a20f-6b7d179d130f" name="Default Changelist" comment="" />
+    <list default="true" id="76f570dc-508b-44e3-a20f-6b7d179d130f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/build.extras.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/autoTrain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/cache-manager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/dialog-conditions/extracted-entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/dialog-conditions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/dialog-conditions/intent-ambiguous.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/dialog-conditions/intent-is.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/dialog-conditions/misunderstood.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/dialog-conditions/topic-ambiguous.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/engine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/entities/custom-entity-extractor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/entities/duckling-extractor.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/entities/duckling_extractor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/entities/entities-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/entities/list-extractor.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/entities/validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/intents/context-classifier-featurizer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/intents/exact-matcher.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/intents/intent-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/intents/intent-vocab.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/intents/recommendations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/intents/validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/language-identifier.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/language-provider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/pos-tagger.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/pos-tagger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/pre-trained/lid.176.ftz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/pre-trained/pos.en.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/pre-trained/pos.fr.model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/sanitizer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/stop-words/en.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/stop-words/fr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/language/stopWords.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/model-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/module-lifecycle/on-bot-mount.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/module-lifecycle/on-bot-unmount.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/module-lifecycle/on-server-ready.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/module-lifecycle/on-server-started.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/out-of-scope-featurizer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/predict-pipeline.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/slots/slot-featurizer.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/slots/slot-featurizer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/slots/slot-tagger.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/slots/slot-tagger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/chars.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/cross-validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/f1-scorer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/jaro.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/levenshtein.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/math.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/math.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/patterns-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/strings.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/strings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/tfidf.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/tfidf.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/token-utils.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/token-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/tools/vocab.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/train-session-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/training-pipeline.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/typings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/utterance/utterance-parser.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/utterance/utterance-parser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/utterance/utterance.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/backend/utterance/utterance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/migrations/v12_0_1-1562193005-migrate_numeral_entities_to_number.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/migrations/v12_2_3-1573576448-updated_entities.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/migrations/v12_3_2-1577993749-entities_misspelling.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/migrations/v12_7_1-1583507028-prune_and_compress_models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/translations/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/translations/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/common/AutoTrainToggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/common/TrainNow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/common/TrainingControl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/common/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/common/style.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/EntityEditor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/EntityNameModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/ListEntity.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/ListEntityOccurrence.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/PatternEntity.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/SidePanelSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/entities/style.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/ContextSelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/FullEditor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/IntentDropdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/IntentHint.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/LiteEditor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/NameModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/SidePanelSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/UtterancesEditor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/slots/EntitySelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/slots/SlotItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/slots/SlotModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/slots/SlotPopover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/slots/Slots.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/slots/style.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/style.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/utterances-state-utils.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/intents/utterances-state-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/full/style.scss.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/lite/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/src/views/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-modules/botpress-module-builder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/custom-modules/botpress-module-builder/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +150,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu" />
       <recent name="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules" />
       <recent name="$PROJECT_DIR$/custom-modules" />
       <recent name="$PROJECT_DIR$/language-server/models" />
@@ -54,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592050500068</updated>
-      <workItem from="1592050502397" duration="2294000" />
+      <workItem from="1592050502397" duration="2551000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1592052647012</created>
@@ -82,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="add nlu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nlu" />
   </component>
 </project>
