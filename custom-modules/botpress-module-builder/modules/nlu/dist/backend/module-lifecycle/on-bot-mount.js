@@ -38,7 +38,7 @@ function getOnBotMount(state) {
     const bot = await bp.bots.getBotById(botId);
     const ghost = bp.ghost.forBot(botId);
     const entityService = new _entitiesService.default(ghost, botId);
-    const languages = ['uk', 'en', 'ru'];
+    const languages = ['uk'];
 
     if (bot.languages.length !== languages.length) {
       bp.logger.warn(missingLangMsg(botId), {

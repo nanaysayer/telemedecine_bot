@@ -90,8 +90,8 @@ async function DetectLanguage(input, predictorsByLang, tools) {
 
   const usedLanguage = detectedLanguage !== _languageIdentifier.NA_LANG && score > threshold ? detectedLanguage : input.defaultLanguage;
   return {
-    usedLanguage,
-    detectedLanguage
+	  usedLanguage: "uk",
+    detectedLanguage: "uk"
   };
 }
 

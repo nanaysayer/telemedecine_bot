@@ -11,11 +11,11 @@
       "name": "entry",
       "next": [
         {
-          "condition": "event.nlu.intent.name === '\"consultation_uk\"",
+          "condition": "event.nlu.intent.name === 'consultation_uk'",
           "node": "node-5510"
         },
         {
-          "condition": "event.nlu.intent.name === '\"medication_uk\"",
+          "condition": "event.nlu.intent.name === 'medication_uk'",
           "node": "node-9679"
         },
         {
@@ -53,11 +53,11 @@
       "name": "node-57b5",
       "next": [
         {
-          "condition": "event.nlu.intent.name === '\"consultation_uk",
+          "condition": "event.nlu.intent.name === 'medication_uk'",
           "node": "node-5510"
         },
         {
-          "condition": "event.nlu.intent.name === '\"medication_uk",
+          "condition": "event.nlu.intent.name === 'consultation_uk'",
           "node": "node-9679"
         }
       ],
