@@ -1,0 +1,25 @@
+version: '3'
+services:
+  web:
+    image: botpress/server:v12_9_1
+    environment:
+      FAST_TEXT_VERBOSITY: 1
+      DEBUG: "bp"
+      TZ: "Europe/Kiev"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./botrpess-server/data:/botpress/data
+      - ./custom-modules/botpress-module-builder/modules:/botpress/modules/custom
+    depends_on:
+      - language
+  language:
+    build: ./language-server
+    environment:
+      FAST_TEXT_VERBOSITY: 1
+      DEBUG: "bp"
+      TZ: "Europe/Kiev"
+    command:
+      bash -c "./bp lang --offline --dim 300 --langDir emb"
+    expose:
+      - "3100"
