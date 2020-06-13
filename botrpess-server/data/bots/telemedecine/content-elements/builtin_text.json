@@ -2,34 +2,89 @@
   {
     "id": "builtin_text-sLIB-R",
     "formData": {
-      "markdown$en": true,
-      "typing$en": true,
+      "markdown$en": false,
+      "typing$en": false,
       "text$en": "Вітаю! Я медичний робот консультант. Вам потрібка консультація чи підбір препарату?"
     },
     "createdBy": "admin",
     "createdOn": "2020-06-13T10:14:19.491Z",
-    "modifiedOn": "2020-06-13T10:14:19.491Z"
+    "modifiedOn": "2020-06-13T13:55:39.239Z"
   },
   {
     "id": "builtin_text-af5sVz",
     "formData": {
-      "markdown$en": true,
-      "typing$en": true,
+      "markdown$en": false,
+      "typing$en": false,
       "text$en": "Будь ласка повторіть, ви хочете отримати консультацію чи підібрати препарат?"
     },
     "createdBy": "admin",
     "createdOn": "2020-06-13T10:19:45.664Z",
-    "modifiedOn": "2020-06-13T10:19:45.664Z"
+    "modifiedOn": "2020-06-13T13:55:44.441Z"
   },
   {
     "id": "builtin_text-KBC00w",
     "formData": {
-      "markdown$en": true,
-      "typing$en": true,
+      "markdown$en": false,
+      "typing$en": false,
       "text$en": "Добре, опишіть свої симптоми"
     },
     "createdBy": "admin",
     "createdOn": "2020-06-13T10:26:35.409Z",
-    "modifiedOn": "2020-06-13T10:26:35.409Z"
+    "modifiedOn": "2020-06-13T13:55:57.229Z"
+  },
+  {
+    "id": "builtin_text-cyUeQ0",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "тест 123"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T14:05:13.788Z",
+    "modifiedOn": "2020-06-13T14:05:13.788Z"
+  },
+  {
+    "id": "builtin_text-VS3XhO",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Якщо ваша температура вища за 38 градусів, негайно зверніться до лікаря"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T20:09:55.349Z",
+    "modifiedOn": "2020-06-13T20:09:55.349Z"
+  },
+  {
+    "id": "builtin_text-aBe5Vv",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Рекомендовано прийняти ібупрофен або анальгін"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T20:11:58.174Z",
+    "modifiedOn": "2020-06-13T20:11:58.174Z"
+  },
+  {
+    "id": "builtin_text-Hnpke7",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Чи є у вас наступні симптоми: підвищена температура, задуха, втрата смаку?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T20:14:19.369Z",
+    "modifiedOn": "2020-06-13T20:14:44.431Z"
+  },
+  {
+    "id": "builtin_text-uwPai9",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Повторіть будь ласка"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T20:24:07.039Z",
+    "modifiedOn": "2020-06-13T20:24:07.039Z"
   }
 ]

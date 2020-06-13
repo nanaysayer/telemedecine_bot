@@ -2,9 +2,14 @@
   "version": "0.0.1",
   "catchAll": {
     "onReceive": [],
-    "next": []
+    "next": [
+      {
+        "condition": "event.payload.text == \"visit\"",
+        "node": "node-adc2"
+      }
+    ]
   },
-  "startNode": "entry",
+  "startNode": "node-adc2",
   "nodes": [
     {
       "id": "entry",
@@ -31,7 +36,16 @@
     {
       "id": "555d46545a",
       "name": "node-5510",
-      "next": [],
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'temprature_uk'",
+          "node": "node-1ce1"
+        },
+        {
+          "condition": "event.nlu.intent.name==='headache_uk'",
+          "node": "node-1147"
+        }
+      ],
       "onEnter": [
         "say #!builtin_text-KBC00w"
       ],
@@ -41,7 +55,20 @@
     {
       "id": "5b4f47de08",
       "name": "node-9679",
-      "next": [],
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'temprature_uk'",
+          "node": "node-1ce1"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'headache_uk'",
+          "node": "node-1804"
+        },
+        {
+          "condition": "true",
+          "node": "node-57b5"
+        }
+      ],
       "onEnter": [
         "say #!builtin_text-KBC00w"
       ],
@@ -63,6 +90,58 @@
       ],
       "onEnter": [
         "say #!builtin_text-af5sVz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0c6c5fefb0",
+      "name": "node-adc2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "30a834ac78",
+      "name": "node-1ce1",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-VS3XhO"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "568fa905ef",
+      "name": "node-1804",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-aBe5Vv"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "282798d5c1",
+      "name": "node-1147",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'yes_uk'",
+          "node": "node-1ce1"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'no_uk'",
+          "node": "node-1804"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Hnpke7"
       ],
       "onReceive": null,
       "type": "standard"
