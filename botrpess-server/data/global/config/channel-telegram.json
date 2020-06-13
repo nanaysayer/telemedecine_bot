@@ -1,0 +1,4 @@
+{
+  "$schema": "../../assets/modules/channel-telegram/config.schema.json",
+  "chatUserAuthDuration": "24h"
+}
