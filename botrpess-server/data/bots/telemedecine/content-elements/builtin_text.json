@@ -1,0 +1,35 @@
+[
+  {
+    "id": "builtin_text-sLIB-R",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Вітаю! Я медичний робот консультант. Вам потрібка консультація чи підбір препарату?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T10:14:19.491Z",
+    "modifiedOn": "2020-06-13T10:14:19.491Z"
+  },
+  {
+    "id": "builtin_text-af5sVz",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Будь ласка повторіть, ви хочете отримати консультацію чи підібрати препарат?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T10:19:45.664Z",
+    "modifiedOn": "2020-06-13T10:19:45.664Z"
+  },
+  {
+    "id": "builtin_text-KBC00w",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Добре, опишіть свої симптоми"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-13T10:26:35.409Z",
+    "modifiedOn": "2020-06-13T10:26:35.409Z"
+  }
+]

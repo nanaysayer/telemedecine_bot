@@ -1,0 +1,23 @@
+{
+  "id": "pain_place_uk",
+  "name": "pain_place_uk",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "голова",
+      "synonyms": []
+    },
+    {
+      "name": "М'язи",
+      "synonyms": []
+    },
+    {
+      "name": "Кістки",
+      "synonyms": []
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": ""
+}

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="76f570dc-508b-44e3-a20f-6b7d179d130f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botrpess-server/data/global/config/channel-telegram.json" beforeDir="false" afterPath="$PROJECT_DIR$/botrpess-server/data/bots/telemedecine/config/channel-telegram.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botrpess-server/data/global/workspaces.json" beforeDir="false" afterPath="$PROJECT_DIR$/botrpess-server/data/global/workspaces.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/botrpess-server/data/storage/core.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/botrpess-server/data/storage/core.sqlite" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/botrpess-server/data/bots/telemedecine/config" />
       <recent name="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules/nlu" />
       <recent name="$PROJECT_DIR$/custom-modules/botpress-module-builder/modules" />
       <recent name="$PROJECT_DIR$/custom-modules" />
@@ -57,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592050500068</updated>
-      <workItem from="1592050502397" duration="3150000" />
+      <workItem from="1592050502397" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1592052647012</created>
@@ -80,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592053316977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bot initialized">
+      <created>1592053940216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592053940216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +112,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="add nlu" />
     <MESSAGE value="module built" />
-    <option name="LAST_COMMIT_MESSAGE" value="module built" />
+    <MESSAGE value="bot initialized" />
+    <option name="LAST_COMMIT_MESSAGE" value="bot initialized" />
   </component>
 </project>

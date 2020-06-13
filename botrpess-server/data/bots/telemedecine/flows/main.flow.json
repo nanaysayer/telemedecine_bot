@@ -1,0 +1,71 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === '\"consultation_uk\"",
+          "node": "node-5510"
+        },
+        {
+          "condition": "event.nlu.intent.name === '\"medication_uk\"",
+          "node": "node-9679"
+        },
+        {
+          "condition": "true",
+          "node": "node-57b5"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-sLIB-R"
+      ],
+      "onReceive": []
+    },
+    {
+      "id": "555d46545a",
+      "name": "node-5510",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-KBC00w"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5b4f47de08",
+      "name": "node-9679",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-KBC00w"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "43bc613be2",
+      "name": "node-57b5",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === '\"consultation_uk",
+          "node": "node-5510"
+        },
+        {
+          "condition": "event.nlu.intent.name === '\"medication_uk",
+          "node": "node-9679"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-af5sVz"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

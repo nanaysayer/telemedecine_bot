@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../assets/modules/channel-telegram/config.schema.json",
+  "enabled": true,
+  "forceWebhook": false,
+  "botToken": "943756177:AAGYHyJE5b_lo0hzbaR_mkdkggWO6Rb1k9c",
+  "chatUserAuthDuration": "24h"
+}
