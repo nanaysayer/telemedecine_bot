@@ -71,7 +71,6 @@ build/docker
 build/tests
 build/native-extensions/darwin
 build/native-extensions/windows
-modules/nlu
 docs
 examples
 licenses
