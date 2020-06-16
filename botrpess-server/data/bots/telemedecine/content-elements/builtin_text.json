@@ -4,11 +4,11 @@
     "formData": {
       "markdown$en": false,
       "typing$en": false,
-      "text$en": "Вітаю! Я медичний робот консультант. Вам потрібка консультація чи підбір препарату?"
+      "text$en": "Вітаю! Я медичний робот консультант. Вам потрібна консультація чи підбір препарату?"
     },
     "createdBy": "admin",
     "createdOn": "2020-06-13T10:14:19.491Z",
-    "modifiedOn": "2020-06-13T13:55:39.239Z"
+    "modifiedOn": "2020-06-14T12:52:09.118Z"
   },
   {
     "id": "builtin_text-af5sVz",
@@ -86,5 +86,71 @@
     "createdBy": "admin",
     "createdOn": "2020-06-13T20:24:07.039Z",
     "modifiedOn": "2020-06-13T20:24:07.039Z"
+  },
+  {
+    "id": "builtin_text-p7RFyl",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Опишіть свій симптом."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-14T10:47:32.708Z",
+    "modifiedOn": "2020-06-14T11:30:18.099Z"
+  },
+  {
+    "id": "builtin_text-_V-_GN",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Чи є у вас наступні симптоми температура, головний біль та втрата смаку"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-14T11:56:59.535Z",
+    "modifiedOn": "2020-06-14T11:56:59.535Z"
+  },
+  {
+    "id": "builtin_text-r90626",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Чи є у вас кашель,  головний біль та втрата смаку?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-14T11:57:48.537Z",
+    "modifiedOn": "2020-06-14T11:57:48.537Z"
+  },
+  {
+    "id": "builtin_text-wHLSg3",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Якщо ви кашляєте більше тижня, рекомендовано звернутися до терапевта"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-14T12:03:07.956Z",
+    "modifiedOn": "2020-06-14T12:03:07.956Z"
+  },
+  {
+    "id": "builtin_text-KbQ9h8",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "Рекомендовано прийняти мукалтин"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-14T12:05:54.452Z",
+    "modifiedOn": "2020-06-14T12:05:54.452Z"
+  },
+  {
+    "id": "builtin_text-O3jJIY",
+    "formData": {
+      "markdown$en": false,
+      "typing$en": false,
+      "text$en": "END_CALL"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-06-16T17:33:10.221Z",
+    "modifiedOn": "2020-06-16T17:33:10.221Z"
   }
 ]

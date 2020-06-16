@@ -3,7 +3,6 @@ services:
   web:
     image: botpress/server:v12_9_1
     environment:
-      FAST_TEXT_VERBOSITY: 1
       DEBUG: "bp"
       TZ: "Europe/Kiev"
     ports:
@@ -16,7 +15,6 @@ services:
   language:
     build: ./language-server
     environment:
-      FAST_TEXT_VERBOSITY: 1
       DEBUG: "bp"
       TZ: "Europe/Kiev"
     command:

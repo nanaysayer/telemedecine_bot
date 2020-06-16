@@ -17,82 +17,21 @@
       "next": [
         {
           "condition": "event.nlu.intent.name === 'consultation_uk'",
-          "node": "node-5510"
+          "node": "node-5cbb"
         },
         {
           "condition": "event.nlu.intent.name === 'medication_uk'",
-          "node": "node-9679"
+          "node": "node-78cb"
         },
         {
           "condition": "true",
-          "node": "node-57b5"
+          "node": "node-88ed"
         }
       ],
       "onEnter": [
         "say #!builtin_text-sLIB-R"
       ],
       "onReceive": []
-    },
-    {
-      "id": "555d46545a",
-      "name": "node-5510",
-      "next": [
-        {
-          "condition": "event.nlu.intent.name === 'temprature_uk'",
-          "node": "node-1ce1"
-        },
-        {
-          "condition": "event.nlu.intent.name==='headache_uk'",
-          "node": "node-1147"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-KBC00w"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "5b4f47de08",
-      "name": "node-9679",
-      "next": [
-        {
-          "condition": "event.nlu.intent.name === 'temprature_uk'",
-          "node": "node-1ce1"
-        },
-        {
-          "condition": "event.nlu.intent.name === 'headache_uk'",
-          "node": "node-1804"
-        },
-        {
-          "condition": "true",
-          "node": "node-57b5"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-KBC00w"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
-      "id": "43bc613be2",
-      "name": "node-57b5",
-      "next": [
-        {
-          "condition": "event.nlu.intent.name === 'medication_uk'",
-          "node": "node-5510"
-        },
-        {
-          "condition": "event.nlu.intent.name === 'consultation_uk'",
-          "node": "node-9679"
-        }
-      ],
-      "onEnter": [
-        "say #!builtin_text-af5sVz"
-      ],
-      "onReceive": null,
-      "type": "standard"
     },
     {
       "id": "0c6c5fefb0",
@@ -108,19 +47,14 @@
       "type": "standard"
     },
     {
-      "id": "30a834ac78",
-      "name": "node-1ce1",
-      "next": [],
-      "onEnter": [
-        "say #!builtin_text-VS3XhO"
-      ],
-      "onReceive": null,
-      "type": "standard"
-    },
-    {
       "id": "568fa905ef",
       "name": "node-1804",
-      "next": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "END_OF_API_SESSION"
+        }
+      ],
       "onEnter": [
         "say #!builtin_text-aBe5Vv"
       ],
@@ -128,12 +62,81 @@
       "type": "standard"
     },
     {
-      "id": "282798d5c1",
-      "name": "node-1147",
+      "id": "3e245a4410",
+      "name": "node-5cbb",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name =='temprature_uk'",
+          "node": "node-13c8"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'headache_uk'",
+          "node": "node-f8ca"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'cought_uk'",
+          "node": "node-f13e"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-p7RFyl"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "d7ca6b8b27",
+      "name": "node-88ed",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'consultation_uk'",
+          "node": "node-1804"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'medication_uk'",
+          "node": "node-78cb"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-af5sVz"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "138fbb8ce8",
+      "name": "node-78cb",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name =='temprature_uk'",
+          "node": "node-13c8"
+        },
+        {
+          "condition": "event.nlu.intent.name =='headache_uk'",
+          "node": "node-f8ca"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'cought_uk'",
+          "node": "node-681b"
+        },
+        {
+          "condition": "true",
+          "node": "node-eadd"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-p7RFyl"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "fbf80ef605",
+      "name": "node-f8ca",
       "next": [
         {
           "condition": "event.nlu.intent.name === 'yes_uk'",
-          "node": "node-1ce1"
+          "node": "node-13c8"
         },
         {
           "condition": "event.nlu.intent.name === 'no_uk'",
@@ -143,6 +146,135 @@
       "onEnter": [
         "say #!builtin_text-Hnpke7"
       ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "858d34b023",
+      "name": "node-13c8",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END_OF_API_SESSION"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-VS3XhO"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "0af9bb69f7",
+      "name": "node-eadd",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'temprature_uk'",
+          "node": "node-13c8"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'headache_uk'",
+          "node": "node-f8ca"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'cought_uk'",
+          "node": "node-681b"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-uwPai9"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "64c8bc86f2",
+      "name": "node-681b",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'yes_uk'",
+          "node": "node-13c8"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'no_uk'",
+          "node": "node-f295"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_V-_GN"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "90873f8a30",
+      "name": "node-f13e",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'yes_uk'",
+          "node": "node-13c8"
+        },
+        {
+          "condition": "event.nlu.intent.name === 'no_uk'",
+          "node": "node-a02f"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-_V-_GN"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "d1ff72e359",
+      "name": "node-a02f",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END_OF_API_SESSION"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wHLSg3"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "332a3a9cb7",
+      "name": "node-f295",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END_OF_API_SESSION"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-KbQ9h8"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "d005f88de1",
+      "name": "exit_node",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-O3jJIY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2ec2cd018c",
+      "name": "END_OF_API_SESSION",
+      "next": [
+        {
+          "condition": "event.channel == 'api'",
+          "node": "exit_node"
+        }
+      ],
+      "onEnter": [],
       "onReceive": null,
       "type": "standard"
     }
