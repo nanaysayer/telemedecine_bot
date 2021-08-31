@@ -43,7 +43,7 @@
     "slate": "^0.47.4",
     "slate-react": "^0.22.4",
     "slate-react-placeholder": "^0.2.4",
-    "tar": "^6.0.1",
+    "tar": "^6.1.9",
     "tmp": "^0.0.33",
     "utility-types": "^3.7.0",
     "verror": "^1.10.0",
