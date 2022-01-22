@@ -50,7 +50,7 @@
     "moment": "^2.24.0",
     "ms": "^2.1.1",
     "mustache": "^2.3.0",
-    "nanoid": "^2.0.3",
+    "nanoid": "^3.1.31",
     "progressbar.js": "^1.0.1",
     "prop-types": "^15.6.0",
     "query-string": "^5.1.1",
